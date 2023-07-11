@@ -31,11 +31,11 @@ establishments.update_many({},
 * The number of establishment in London which have a *RatingValue* >= 4, which I WOULD RECOMMEND visiting. <br>
 ![Alt text](image-2.png)
 * The next question was to find the top 5 establishments closest to the the newly added restaurant *Penang Flavours* with a *RatingValue* of 5 and sort them by lowest hygiene Score. They were:
-1. Volunteer (Type : pub/bar/nightclub)
-2. Plumstead Manor Nursery (Type: Caring Premises)
-3. Atlantic Fish Bar (Type: Takeaway/sandwich bar)
-4. Iceland (Type: Retailers - supermarkets/hypermarkets)
-5. Howe and Co Fish and Chips - Van 17 (Mobile caterer) <br>
+1. Volunteer (BusinessType : pub/bar/nightclub)
+2. Plumstead Manor Nursery (BusinessType: Caring Premises)
+3. Atlantic Fish Bar (BusinessType: Takeaway/sandwich bar)
+4. Iceland (BusinessType: Retailers - supermarkets/hypermarkets)
+5. Howe and Co Fish and Chips - Van 17 (BusinessType: Mobile caterer) <br>
 <br>
 All of which possess hygiene scores of 0 and are all safe bets to visit. Volunteer is best for a more upbeat/going out type of night as it does turn into a nightclub, Plumstead Manor Nursery if you have kids and are looking for a caretaker. Atlantic Fish Bar for a more casual takeout style meal (Takeaway is the british term for our takeout), finally Iceland is a safe bet for every day grocery needs.
 * The final question I answered was to find out how many establishments in each *LocalAuthorityName* had perfect hygiene scores (perfect = 0), organized into a dataframe sorted greatest to least. To do so I created the following aggregation pipeline: <br>
